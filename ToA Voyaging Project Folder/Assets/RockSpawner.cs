@@ -10,28 +10,31 @@ public class RockSpawner : MonoBehaviour
     public bool canMove;
 
     float fX;
+    public RockFrequency Distance;
 
     // Use this for initialization
     void Start()
     {
-        canMove = false;
+        canMove = false;        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        if (transform.position.z <= boat.transform.position.z + 5 && transform.position.z >= boat.transform.position.z - 5)
+        //print(Distance.SpawnDistance);
+        if (transform.position.z <= boat.transform.position.z)
         {
             canMove = true;
         }
-        print(transform.position.z - boat.transform.position.z);
+       // print(transform.position.z - boat.transform.position.z);
 
-        if (canMove && (transform.position.z - boat.transform.position.z > 100 || transform.position.z - boat.transform.position.z < -100))
+        if (canMove && Vector3.Distance(transform.position, boat.transform.position) > 100 )
         {
             fX = Random.Range(-50.0f, 50.0f);
-            transform.position = new Vector3(fX, 0, boat.transform.position.z + 300);
+            transform.position = new Vector3(fX, 0, boat.transform.position.z + Distance.SpawnDistance);
+
             canMove = false;
+            Distance.SpawnDistance -= 10;
         }
     }
 }

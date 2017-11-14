@@ -7,62 +7,52 @@ Direct3D:
     VRAM:     1989 MB
     Driver:   10.18.13.6472
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.018 seconds
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Users\clinton.gub6929\Desktop\Prototype 3\Prototype3_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.218 seconds
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Users\clinton.gub6929\Desktop\New folder\FinalMiniProduction\Original Prototype\Prototype 3\Prototype3_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.896311 ms
+UnloadTime: 0.928811 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 18d0 -> priority: 1 
-  Thread -> id: ebc -> priority: 1 
-  Thread -> id: 8e0 -> priority: 1 
-  Thread -> id: 31f4 -> priority: 1 
+  Thread -> id: 2f00 -> priority: 1 
+  Thread -> id: 230 -> priority: 1 
+  Thread -> id: 2c44 -> priority: 1 
+  Thread -> id: 35f4 -> priority: 1 
 X working
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.222949 ms
+UnloadTime: 0.228968 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 247.
-Total: 0.145022 ms (FindLiveObjects: 0.019556 ms CreateObjectMapping: 0.021362 ms MarkObjects: 0.086351 ms  DeleteObjects: 0.009026 ms)
+Total: 0.116139 ms (FindLiveObjects: 0.033096 ms CreateObjectMapping: 0.009928 ms MarkObjects: 0.059874 ms  DeleteObjects: 0.012336 ms)
 
 X working
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.208206 ms
+UnloadTime: 0.327656 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 461.
-Total: 0.167889 ms (FindLiveObjects: 0.033397 ms CreateObjectMapping: 0.028884 ms MarkObjects: 0.093873 ms  DeleteObjects: 0.011132 ms)
+Total: 0.186243 ms (FindLiveObjects: 0.037008 ms CreateObjectMapping: 0.039415 ms MarkObjects: 0.093874 ms  DeleteObjects: 0.015043 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.836737 ms
+UnloadTime: 7.135629 ms
 
 Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 248.
-Total: 2.881494 ms (FindLiveObjects: 0.022565 ms CreateObjectMapping: 0.029786 ms MarkObjects: 0.083041 ms  DeleteObjects: 2.745798 ms)
-
-X working
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.233781 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 461.
-Total: 0.196171 ms (FindLiveObjects: 0.033698 ms CreateObjectMapping: 0.032494 ms MarkObjects: 0.109819 ms  DeleteObjects: 0.019556 ms)
+Total: 3.042481 ms (FindLiveObjects: 0.024070 ms CreateObjectMapping: 0.035503 ms MarkObjects: 0.087254 ms  DeleteObjects: 2.895351 ms)
 

@@ -85,7 +85,7 @@ Material:
     - _WaveLengthInverse: 0.1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.026275955, g: 0.13437988, b: 0.19852942, a: 0.934}
+    - _BaseColor: {r: 0.4156863, g: 0.5882353, b: 0.7686275, a: 0.934}
     - _BumpDirection: {r: 40, g: 40, b: 40, a: -40}
     - _BumpTiling: {r: 0.05, g: 0.07, b: 0.08, a: 0.06}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
