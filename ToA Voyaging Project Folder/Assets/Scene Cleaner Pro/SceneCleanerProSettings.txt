@@ -1,0 +1,1 @@
+{"_savePath":"Scene Cleaner Pro/Rulesets/","_saveRulesetOnWindowclose":true,"_saveSettingsOnWindowClose":true,"_rulesetBeingEdited":"MainRuleset3D","_enableBetaFeatures":false}
