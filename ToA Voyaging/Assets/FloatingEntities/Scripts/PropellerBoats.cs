@@ -10,8 +10,8 @@ public class PropellerBoats : MonoBehaviour
   float throttle;
   int direction = 1;
 
-  public float propellers_constant = 0.6F;
-  public float engine_max_rpm = 600.0F;
+  public float propellers_constant = 6F; //was 0.6F
+  public float engine_max_rpm = 6000.0F;
   public float acceleration_cst = 1.0F;
   public float drag = 0.01F;
 
@@ -43,7 +43,7 @@ public class PropellerBoats : MonoBehaviour
 
   public void ThrottleUp()
   {
-    throttle += acceleration_cst * 0.001F;
+    throttle += acceleration_cst * 0.01F; //was 0.001F
     if (throttle > 1)
       throttle = 1;
   }
