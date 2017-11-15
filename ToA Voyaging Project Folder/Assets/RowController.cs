@@ -6,27 +6,26 @@ public class RowController : MonoBehaviour {
 
     // Use this for initialization
     Animator myAnimator;
-    public Animation myAnimation;
+    float timer;
+
 
 	void Start () {
         myAnimator = GetComponent<Animator>();
-        myAnimation = GetComponent<Animation>();
-        foreach(AnimationState state in myAnimation)
-        {
-            state.speed = 0.5F;
-        }
-	}
+        timer = 1.70F;
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
-            myAnimator.Play(0);
+            if (timer <= 0)
+            {
+                myAnimator.Play(0);
+                timer = 1.70F;
+            }
+                
         }
-        if (Input.GetKey(KeyCode.A))
-        {
-            myAnimator.Play(0);
-        }
+        timer -= Time.deltaTime;
 	}
 }

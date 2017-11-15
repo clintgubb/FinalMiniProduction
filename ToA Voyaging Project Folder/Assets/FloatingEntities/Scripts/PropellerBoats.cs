@@ -43,21 +43,22 @@ public class PropellerBoats : MonoBehaviour
 
   public void ThrottleUp()
   {
-    throttle += acceleration_cst * 0.01F; //was 0.001F
+        
+    throttle += acceleration_cst * 10.01F; //was 0.001F
     if (throttle > 1)
       throttle = 1;
   }
 
   public void ThrottleDown()
   {
-    throttle -= acceleration_cst * 0.001F;
+    throttle -= acceleration_cst * 10.001F;
     if (throttle < 0)
       throttle = 0;
   }
 
   public void Brake()
   {
-    throttle *= 0.9F;
+    throttle *= 10.9F;
   }
 
   public void Reverse()
@@ -76,6 +77,7 @@ public class PropellerBoats : MonoBehaviour
     angle += 0.9F;
     angle = Mathf.Clamp(angle, -90F, 90F);
   }
+
 
   void OnDrawGizmos()
   {
