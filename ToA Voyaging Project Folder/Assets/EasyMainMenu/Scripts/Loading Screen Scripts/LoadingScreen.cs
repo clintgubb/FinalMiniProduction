@@ -53,12 +53,12 @@ public class LoadingScreen : MonoBehaviour {
 
     void init() {
         //retrieve what scene to be loaded
-        sceneToLoad = PlayerPrefs.GetString("sceneToLoad");
+        //sceneToLoad = PlayerPrefs.GetString("sceneToLoad");
         //if it's null
-        if (sceneToLoad == "")
-        {
-            sceneToLoad = "MainMenu";
-        }
+        //if (sceneToLoad == "")
+        //{
+        sceneToLoad = "Ocean";
+        //}
 
         //now loading scene async
         //SceneManager.LoadSceneAsync(sceneToLoad);

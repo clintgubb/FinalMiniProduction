@@ -1,0 +1,256 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 670 (ID=0x1189)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   10.18.13.6472
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\ArchimedsLab.dll (this message is harmless)
+Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\ArchimedsLab.dll into Unity Child Domain
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.019 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.745872 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at OptionsController_Game.game_setMusic () [0x00000] in <filename unknown>:0 
+  at OptionsController_Game.game_setDefaults () [0x00000] in <filename unknown>:0 
+  at OptionsController_Game.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainMenuController.playHoverClip () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerEnterHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
+UnityEngine.EventSystems.PointerInputModule:ProcessMove(PointerEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainMenuController.playClickSound () [0x00000] in <filename unknown>:0 
+  at MainMenuController.openStartGameOptions () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at MainMenuController.playHoverClip () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall.Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent`1[T0].Invoke (.T0 arg0) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.Execute (EventTriggerType id, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.EventTrigger.OnPointerEnter (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerEnterHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerEnterHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.BaseInputModule:HandlePointerExitAndEnter(PointerEventData, GameObject)
+UnityEngine.EventSystems.PointerInputModule:ProcessMove(PointerEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.737975 ms
+
+Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 696.
+Total: 0.314115 ms (FindLiveObjects: 0.042122 ms CreateObjectMapping: 0.035202 ms MarkObjects: 0.205197 ms  DeleteObjects: 0.030990 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.391741 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 696.
+Total: 0.308699 ms (FindLiveObjects: 0.040618 ms CreateObjectMapping: 0.027379 ms MarkObjects: 0.235285 ms  DeleteObjects: 0.004814 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: cf0 -> priority: 1 
+  Thread -> id: 3754 -> priority: 1 
+  Thread -> id: 335c -> priority: 1 
+  Thread -> id: 3824 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+load scene
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 0.332468 ms
+The AnimationClip 'Take 001' used by the Animation component 'Left_Rower' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2214.
+Total: 0.594531 ms (FindLiveObjects: 0.099590 ms CreateObjectMapping: 0.024370 ms MarkObjects: 0.370980 ms  DeleteObjects: 0.098988 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.054498 ms
+The AnimationClip 'Take 001' used by the Animation component 'Left_Rower' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2214.
+Total: 0.474482 ms (FindLiveObjects: 0.100191 ms CreateObjectMapping: 0.021663 ms MarkObjects: 0.338486 ms  DeleteObjects: 0.013539 ms)
+
+RenderTexture.Create: Depth|ShadowMap RenderTexture requested without a depth buffer. Changing to a 16 bit depth buffer.
+ 
+(Filename:  Line: 483)
+

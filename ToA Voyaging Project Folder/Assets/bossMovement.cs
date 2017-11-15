@@ -56,7 +56,7 @@ public class bossMovement : MonoBehaviour {
 
         if (!submerging)
         {
-            if (transform.position.y < -6.5F)
+            if (transform.position.y < -3.5F)
             {
                 transform.Translate(Vector3.up * speed * Time.deltaTime);
             }

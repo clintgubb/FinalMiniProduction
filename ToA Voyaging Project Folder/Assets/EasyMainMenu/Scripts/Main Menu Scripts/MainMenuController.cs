@@ -145,21 +145,21 @@ public class MainMenuController : MonoBehaviour {
     public void newGame()
     {
         //if we don't have this component
-        if (!GetComponent<LevelSelectManager>())
-        {
+        //if (!GetComponent<LevelSelectManager>())
+        //{
             //loads a specific scene
-            PlayerPrefs.SetString("sceneToLoad", newGameSceneName);
+            //PlayerPrefs.SetString("sceneToLoad", newGameSceneName);
 
             //load level via fader
             Fader fader = FindObjectOfType<Fader>();
             fader.FadeIntoLevel("LoadingScreen");
 
-        }
-        //open the level select screen
-        else
-        {
-            GetComponent<LevelSelectManager>().openLevelSelect();
-        }
+        //}
+        ////open the level select screen
+        //else
+        //{
+        //    GetComponent<LevelSelectManager>().openLevelSelect();
+        //}
 
         //delete slot id
         PlayerPrefs.DeleteKey("slotLoaded_");
