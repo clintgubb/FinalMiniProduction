@@ -27,11 +27,11 @@ Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Produ
 Loading D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\ArchimedsLab.dll into Unity Child Domain
 Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\System.dll (this message is harmless)
 Platform assembly: D:\Users\isaac.mis6876\Desktop\FinalMiniProduction\Mini Production 2 Build\15-11-17\Unity Builds\Voyager_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.019 seconds
+- Completed reload, in  0.022 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.745872 ms
+UnloadTime: 0.738952 ms
 NullReferenceException: Object reference not set to an instance of an object
   at OptionsController_Game.game_setMusic () [0x00000] in <filename unknown>:0 
   at OptionsController_Game.game_setDefaults () [0x00000] in <filename unknown>:0 
@@ -112,28 +112,28 @@ UnityEngine.EventSystems.EventSystem:Update()
 (Filename:  Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.737975 ms
+UnloadTime: 2.895334 ms
 
-Unloading 62 unused Assets to reduce memory usage. Loaded Objects now: 696.
-Total: 0.314115 ms (FindLiveObjects: 0.042122 ms CreateObjectMapping: 0.035202 ms MarkObjects: 0.205197 ms  DeleteObjects: 0.030990 ms)
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 1.859717 ms (FindLiveObjects: 0.031892 ms CreateObjectMapping: 0.022565 ms MarkObjects: 0.216330 ms  DeleteObjects: 1.588326 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.391741 ms
+UnloadTime: 0.369175 ms
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 696.
-Total: 0.308699 ms (FindLiveObjects: 0.040618 ms CreateObjectMapping: 0.027379 ms MarkObjects: 0.235285 ms  DeleteObjects: 0.004814 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 706.
+Total: 0.272894 ms (FindLiveObjects: 0.037910 ms CreateObjectMapping: 0.051750 ms MarkObjects: 0.177818 ms  DeleteObjects: 0.004814 ms)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: cf0 -> priority: 1 
-  Thread -> id: 3754 -> priority: 1 
-  Thread -> id: 335c -> priority: 1 
-  Thread -> id: 3824 -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+  Thread -> id: 5810 -> priority: 1 
+  Thread -> id: 54d8 -> priority: 1 
+  Thread -> id: 254c -> priority: 1 
+  Thread -> id: 4e44 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
 load scene
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-UnloadTime: 0.332468 ms
+UnloadTime: 0.421828 ms
 The AnimationClip 'Take 001' used by the Animation component 'Left_Rower' must be marked as Legacy.
  
 (Filename:  Line: 2008)
@@ -182,17 +182,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
 
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 0.724811 ms (FindLiveObjects: 0.113731 ms CreateObjectMapping: 0.028884 ms MarkObjects: 0.472977 ms  DeleteObjects: 0.108917 ms)
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 0.594531 ms (FindLiveObjects: 0.099590 ms CreateObjectMapping: 0.024370 ms MarkObjects: 0.370980 ms  DeleteObjects: 0.098988 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.054498 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.481441 ms
 The AnimationClip 'Take 001' used by the Animation component 'Left_Rower' must be marked as Legacy.
  
 (Filename:  Line: 2008)
@@ -241,16 +236,27 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at OceanAdvanced.Awake () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
 
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2214.
-Total: 0.474482 ms (FindLiveObjects: 0.100191 ms CreateObjectMapping: 0.021663 ms MarkObjects: 0.338486 ms  DeleteObjects: 0.013539 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 0.596638 ms (FindLiveObjects: 0.106510 ms CreateObjectMapping: 0.028282 ms MarkObjects: 0.448005 ms  DeleteObjects: 0.013238 ms)
 
 RenderTexture.Create: Depth|ShadowMap RenderTexture requested without a depth buffer. Changing to a 16 bit depth buffer.
  
 (Filename:  Line: 483)
+
+Sea One moved
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sea Two moved
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sea Three moved
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sea One moved
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 

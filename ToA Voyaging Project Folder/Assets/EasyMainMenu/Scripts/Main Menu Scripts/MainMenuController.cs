@@ -21,6 +21,15 @@ public class MainMenuController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+        if (GameObject.Find("UI"))
+        {
+            GameObject.Find("UI").SetActive(false);
+        }
+
+
+        Cursor.visible = true;
+        Cursor.lockState = UnityEngine.CursorLockMode.Confined;
         anim = GetComponent<Animator>();
 
         //new key
