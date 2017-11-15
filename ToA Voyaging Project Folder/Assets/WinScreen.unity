@@ -2373,15 +2373,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 422067331}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10.519806}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.99998206, y: 0.99998206, z: 0.99998206}
   m_Children: []
-  m_Father: {fileID: 595886598}
+  m_Father: {fileID: 729247865}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 231.84998, y: 64.7}
+  m_AnchoredPosition: {x: 428, y: -76}
   m_SizeDelta: {x: 278.1, y: 293.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &422067333
@@ -2416,10 +2416,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Chase the Beast of the North Island.
+  m_Text: 'You win! Congratulations
 
 
-    Tap the space bar in time with your rowers to catch Te Ika a Maui.'
+    Play Again?'
 --- !u!222 &422067334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3409,7 +3409,7 @@ RectTransform:
   m_Children:
   - {fileID: 965035479}
   m_Father: {fileID: 729247865}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -3863,7 +3863,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 450}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 422067332}
   - {fileID: 1995302580}
   - {fileID: 1925434913}
   - {fileID: 940256335}
@@ -4996,7 +4995,7 @@ RectTransform:
   m_Children:
   - {fileID: 228129509}
   m_Father: {fileID: 729247865}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -5335,6 +5334,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 10.519773}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 422067332}
   - {fileID: 536275849}
   - {fileID: 1937821337}
   - {fileID: 699530371}
@@ -6677,7 +6677,7 @@ RectTransform:
   m_Children:
   - {fileID: 1653668472}
   m_Father: {fileID: 595886598}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9333,7 +9333,7 @@ RectTransform:
   m_LocalScale: {x: 1.2111576, y: 1.2111576, z: 1.2111576}
   m_Children: []
   m_Father: {fileID: 729247865}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -11358,7 +11358,7 @@ RectTransform:
   m_Children:
   - {fileID: 1796312836}
   m_Father: {fileID: 595886598}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11511,7 +11511,7 @@ RectTransform:
   m_Children:
   - {fileID: 29650521}
   m_Father: {fileID: 729247865}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -12015,7 +12015,7 @@ RectTransform:
   m_Children:
   - {fileID: 392548686}
   m_Father: {fileID: 595886598}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

@@ -15,5 +15,11 @@ EditorBuildSettings:
     path: Assets/Ocean.unity
     guid: 0694508df510d6a4ba33fcdf80728722
   - enabled: 0
-    path: Assets/Title.unity
+    path: 
     guid: 2c6813ebc3bc43d4786a86f34aeacd5e
+  - enabled: 1
+    path: Assets/LoseScreen.unity
+    guid: ea90c7fd0463c964e83b04def49ee2c2
+  - enabled: 1
+    path: Assets/WinScreen.unity
+    guid: 736d2c6f85d375f419ac1ba9c535e23a

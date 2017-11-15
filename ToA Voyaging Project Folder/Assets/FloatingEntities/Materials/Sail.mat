@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Sail
-  m_Shader: {fileID: 10509, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -60,10 +60,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - PixelSnap: 0
-    - _AO: 2.4
+    - _AO: 0.11
     - _BaseLight: 0.35
     - _BumpScale: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.494
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnableExternalAlpha: 0
@@ -74,7 +74,7 @@ Material:
     - _Intensity: 4
     - _Metallic: 0
     - _Mode: 0
-    - _Occlusion: 7.5
+    - _Occlusion: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Periode: 1
@@ -90,12 +90,13 @@ Material:
     - _BaseColor: {r: 0.53999996, g: 0.95, b: 0.98999995, a: 0.5}
     - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
     - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.691}
     - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _ReflectionColor: {r: 0.53999996, g: 0.95, b: 0.98999995, a: 0.5}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

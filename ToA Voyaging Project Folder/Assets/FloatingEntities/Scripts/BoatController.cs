@@ -12,8 +12,8 @@ public class BoatController : MonoBehaviour
 
     void Update()
     {
-        print(spaceLimit);
-        print(canMove);
+        //print(spaceLimit);
+        //print(canMove);
 
 
         if (Input.GetKeyDown(KeyCode.Space))

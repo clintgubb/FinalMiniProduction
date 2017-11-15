@@ -1,32 +1,48 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class winCondition : MonoBehaviour {
 
     public GameObject boss;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    Fader fader; 
+    // Use this for initialization
+    void Start () {
+        fader = FindObjectOfType<Fader>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (Vector3.Distance(boss.transform.position, transform.position)>200)
+        if (Vector3.Distance(boss.transform.position, transform.position)>300)
         {
             //trigger lose
             //fade to lose screen
-        }
-	}
+          
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.name == "boss")
+            print("You lose!");
+            SceneManager.LoadScene("LoseScreen");
+            //fader.FadeIntoLevel("LoseScreen");
+
+
+        }
+
+        if (Vector3.Distance(boss.transform.position, transform.position) < 12)
         {
-            //trigger win
-            //fade to win screen
+            //trigger lose
+            //fade to lose screen
+
+
+            print("You win!");
+
+            SceneManager.LoadScene("WinScreen");
+
+
         }
     }
+
+
 }
